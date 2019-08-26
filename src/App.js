@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import './index.css';
 import './App.css';
+//自定义标签
+import A from "./components/A.js";
+import B from "./components/B.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        我的APP
+        <A />
+        <B />
     </div>
   );
 }
